@@ -74,3 +74,4 @@ class TestBooksCollector:
         collector.add_book_in_favorites('Униженные и оскорблённые') 
         collector.add_book_in_favorites('Униженные и оскорблённые')  
         assert collector.get_list_of_favorites_books().count('Униженные и оскорблённые') == 1
+        
